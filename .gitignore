@@ -1,24 +1,112 @@
-# Compiled class file
-*.class
+<!DOCTYPE html>
+<html lang="en">
 
-# Log file
-*.log
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Tributo: Mamonas Assassinas</title>
+  <style>
+    @media screen and (max-widht:100px) {}
 
-# BlueJ files
-*.ctxt
+    @media screen and (max-widht:600px) {}
+  </style>
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+<body>
+  <div class="container">
+    <!--CABEÇALHO-->
+    <div class="header">
+      <h1 class="main-title">Mamonas Assassinas</h1>
+      <p class="main-paragraph">Uma banda de 1980 formada no Brasil</p>
+    </div>
+    <!--Imagem de destaque-->
+    <div class="featured-image">
+      <figure>
+        <img src="img/mamonas-03.webp" alt="A banda Mamonas Assassinas">
+        <figcaption>Integrantes da banda</figcaption>
+      </figure>
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+      <!--Biograph-->
+      <div class="biograph-container"></div>
+      <h2>Sobre a banda Mamonas Assassinas</h2>
+      <p>Mamonas Assassinas, também conhecida como Mamonas
+        foi uma banda brasileira de rock formada em Guarulhos em
+        1995, originada da banda Utopia.Notabilizaram-se por suas composições que conciliavam pop rock com
+        gêneros musicais populares, tais como <span class="bold"> sertanejo, heavy metal, pagode romântico, vira e
+          forró,</span> e também por suas
+        apresentações irreverentes e excêntricas. Tais fatores tornaram o grupo um notável expoente do rock cômico,
+        gênero antagônico ao rock alternativo que seus integrantes vinham aplicando no repertório da banda Utopia.</p>
+
+      <p>A banda esteve em atividade durante poucos meses,
+        pois em 1996, devido a um acidente aéreo de comoção
+        nacional, todos os membros da banda, que eram <span class="bold"> Dinho (vocal), Júlio Rasec (teclado, percussão
+          e vocais), Bento
+          Hinoto (guitarra), Samuel Reoli (baixo) e Sérgio Reoli (bateria),</span> morreram quando a aeronave na qual
+        voavam com
+        destino a Guarulhos se chocou contra a Serra da Cantareira.Em seus pouco mais de 8 meses de
+        trajetória, eles gravaram um único álbum de estúdio, Mamonas Assassinas, lançado em junho de 1995 e que vendeu
+        mais de 3 milhões de cópias no Brasil,feito que lhes rendeu um certificado de disco de diamante
+        comprovado pela Associação Brasileira dos Produtores de Discos (ABPD). Duas músicas desse disco, "Vira-Vira"
+        e "Pelados em Santos", foram incluídas entre as 10 canções mais ouvidas do país no ano de 1995. Além disso,
+        foram lançados de forma póstuma, reunindo tanto materiais inéditos quanto gravações antigas, álbuns como:
+        Atenção, Creuzebek: a Baixaria Continua! (1998), Ao Vivo em Valinhos (2002), Mamonas Ao Vivo (2006), One: 16
+        Hits (2009) e Pelados em Santos (2011).</p>
+
+      <p>A banda foi uma das pioneiras do gênero de rock cômico no Brasil, e continua sendo celebrada e influenciando o
+        cenário nacional da música mesmo muito tempo após seu fim.Atualmente, o seu único disco lançado prevalece
+        como um dos <span class="bold">10 álbuns mais vendidos do Brasil em todos os tempos.</span></p>
+    </div>
+    <!--Container de citação-->
+    <div class="quotes-container">
+      <blockquote>
+        "Se de repente olhar pro lado e ver que ninguém aí está, é porque ninguém está do seu"
+      </blockquote>
+      <p>Mamonas Assassinas</p>
+    </div>
+    <!--Curiosidades da banda-->
+    <div class="curiosities-container">
+      <h2>Curiosidades da banda</h2>
+      <ul>
+        <li> Dinho, vocalista da banda, completaria 25 anos três dias depois da data do acidente. A tragédia com os
+          Mamonas
+          Assassinas causou grande comoção no Brasil.</li>
+        <li> A aeronave da banda se chocou com a Serra da Cantareira e todos os seus ocupantes faleceram. De acordo com
+          as investigações, o acidente aconteceu por uma falha do piloto, que teria realizado uma curva para o lado
+          errado,chocando-se com a Serra.</li>
+        <li>Orientados a mudar de nome pelo produtor, pensaram em nomes como “Os Cangaceiros do Teu Pai” e “Tangas
+          Vermelhas”. <span class="bold">“Mamonas Assasinas” </span>surgiu da união de dois elementos: a planta mamona e
+          uma mulher com seios
+          grandes. Não há consenso sobre quem seria a musa inspiradora.</li>
+      </ul>
+    </div>
+    <!--Segunda citação-->
+    <div class="quotes-container">
+      <blockquote>
+        "Mina <br />
+        Seus cabelo é da hora <br />
+        Seu corpão violão <br />
+        Meu docinho de coco <br />
+        Tá me deixando louco" <br />
+      </blockquote>
+      <p>Mamonas Assassinas - Pelados Em Santos</p>
+    </div>
+    <!--Segunda imagem-->
+    <div class="img-bold">
+      <figure>
+        <img src="img/40800470_1712.1995marco-antonio-teixeiratvmamonas-assassinasdinhojuliobentosam.webp"
+          alt="Mamonas Assassinas com seus trajes">
+        <figcaption>As divertidas cores das roupas de Mamonas Assassinas</figcaption>
+      </figure>
+    </div>
+    <!--Mais infromações-->
+    <div class="moreinfo-container">
+      <h2>Mais infromações</h2>
+      <p>Você pode conhecer mais sobre a banda <a href="https://pt.wikipedia.org/wiki/Mamonas_Assassinas">clicando
+          aqui</a></p>
+    </div>
+  </div>
+</body>
+
+</html>
